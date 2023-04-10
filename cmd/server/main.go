@@ -14,7 +14,7 @@ import (
 func main() {
 
 	// Cargo csv.
-	list, err := LoadTicketsFromFile("../../tickets.csv")
+	list, err := LoadTicketsFromFile("/Users/sguerra/Documents/desafioGoWeb/desafio-go-web/tickets.csv")
 	if err != nil {
 		panic("Couldn't load tickets")
 	}
